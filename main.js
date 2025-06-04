@@ -18,7 +18,7 @@ Object.entries(EVENT_TO_SCENE).forEach(([eventName, sceneName]) => {
 });
 
 
-window.onload = () => launchScene("coffeeShop"); //시작 시 start화면면
+window.onload = () => launchScene("start"); //시작 시 start화면면
 
 window.state = window.state || {}; // 모든 파일에서 사용가능한 변수들들(객체를 이용) -> 파이썬의 딕셔너리 생각하면 좋다!
 window.state.characterX = 100; // window.state의 사용법 (캐릭터의 위치를 저장)
